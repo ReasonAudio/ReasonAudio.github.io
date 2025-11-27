@@ -143,7 +143,7 @@ function generateExampleRowMelVideo(table_row, base_path, filename_ext, models, 
 
 function generateTable1Vggsound(tableId) {  
   const table  = document.getElementById(tableId);  
-  const names  = ['_xsRyM_fXYI_000006','_j62xxyQbzo_000084','_1TjLs6_Geo_000013','_aggk5tA7hM_000047','1RAcDEFEszA_000093','1F23RciUwDE_000030'];
+  const names  = ['xsRyM_fXYI_000006','j62xxyQbzo_000084','1TjLs6_Geo_000013','aggk5tA7hM_000047','1RAcDEFEszA_000093','1F23RciUwDE_000030'];
   const models = ['Diff-Foley','ThinkSound','mmaudio_150k_withvideo','Frieren-track_250k_vggsound_audiocaps_reason_all_large_withvideo','V2A-Mapper-track_260k_vggsound_audiocaps_reason_all_large_withvideo','llm_dpo_beta2','reasonaudio_large'];
 
   for (let i = 0; i < names.length; i++) {
@@ -157,7 +157,7 @@ function generateTable1Landscape(tableId) {
 
   // 每行对应的基名（与你的文件名一致，不带扩展名）
   const ids = [
-    '_C2HinL8VlM','_z6pymOet7g','-EQByFLFqig','-mb4Fw4Z0xg','-NsC63dA01g',
+    'C2HinL8VlM','z6pymOet7g','-EQByFLFqig','-mb4Fw4Z0xg','-NsC63dA01g',
     // '0G7rb74R-2A','1e98HeU9Vrg','1L_OyngNZMA','1slvoNgzBLE'
   ];
 
@@ -175,7 +175,7 @@ function generateTable1Landscape(tableId) {
 
 function generateTable2Vggsound_think(tableId) {  
   const table  = document.getElementById(tableId);  
-  const names  = ['0O463Ft4mVY_000080','hSAVR0LcQp8_000280','U24BkLFGDtg_000490','0T39A4knSu4_000057','_nJbGyPg6BY_000060','02UvvE1oA1I_000030'];
+  const names  = ['0O463Ft4mVY_000080','hSAVR0LcQp8_000280','U24BkLFGDtg_000490','0T39A4knSu4_000057','nJbGyPg6BY_000060','02UvvE1oA1I_000030'];
   const models = ['Deepsound','thinksound-vggsound_offscreen','mmaudio-vggsound-vggsound_audiocaps_fix_150k_offscreen','ReasonAudio'];
 
   for (let i = 0; i < names.length; i++) {
